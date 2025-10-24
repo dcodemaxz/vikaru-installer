@@ -56,22 +56,16 @@ git clone https://github.com/dcodemaxz/vikaru-installer.git vikaru
 ### 1. Enter the project directory
 
 ```bash
-cd vikaru # or = vikaru-installer
+cd vikaru 2>/dev/null || cd vikaru-installer 2>/dev/null
 ```
 
-### 2. Grant chmod permission
+### 2. Run the installer
 
 ```bash
-chmod +x start
+bash start
 ```
 
-### 3. Run the installer
-
-```bash
-./start # or = bash start
-```
-
-### 4. Generate SSH key (for verification and updates)
+### 3. Generate SSH key ( verification )
 
 From the menu, select:
 
@@ -83,12 +77,20 @@ Then copy the generated **public key** and send it to the [developer](https://wa
 
 > ⚠️ Never share your **private key** (`id_ed25519`).
 
-### 5. Install vikaru-md
+### 4. Install Bot vikaru-md
 
 From the menu, select:
 
 ```
 • [2] Install Bot
+```
+
+### 5. Run Bot vikaru-md
+
+From the menu, select:
+
+```
+• [1] Start Bot
 ```
 
 ---

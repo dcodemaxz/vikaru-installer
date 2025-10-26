@@ -23,7 +23,7 @@ on_list_input_up() {
     tput el
   fi
 
-  printf "${blue}${arrow}${normal}${cyan} %s ${normal}" "${_list_options[$_list_selected_index]}"
+  printf "${blue}${arrow}${normal}${cyan} %s ${normal}${dim}--enter${normal}" "${_list_options[$_list_selected_index]}"
 }
 
 on_list_input_down() {
@@ -43,7 +43,7 @@ on_list_input_down() {
     tput cub "$(tput cols)"
     tput el
   fi
-  printf "${blue}${arrow}${normal}${cyan} %s ${normal}" "${_list_options[$_list_selected_index]}"
+  printf "${blue}${arrow}${normal}${cyan} %s ${normal}${dim}--enter${normal}" "${_list_options[$_list_selected_index]}"
 }
 
 on_list_input_enter_space() {
@@ -62,7 +62,7 @@ on_list_input_enter_space() {
   tput cub "$(tput cols)"
 
   tput cuf $((${#prompt}+3))
-  #printf "${cyan}${_list_options[$_list_selected_index]}${normal}"
+  #printf "${green}${_list_options[$_list_selected_index]}${normal}"
   tput el
 
   tput cud1
@@ -98,13 +98,13 @@ _list_input() {
   stty -echo
   tput civis
 
-  #print "${normal}${green}->${normal} ${bold}${prompt}${normal} ${dim}(Use arrow keys)${normal}"
+  #print "${normal}${red}->${normal} ${bold}${prompt}${normal} ${dim}(Use arrow keys)${normal}"
    print ""
 
   for i in $(gen_index ${#_list_options[@]}); do
     tput cub "$(tput cols)"
     if [ $i = 0 ]; then
-      print "${blue}${arrow}${normal}${cyan} ${_list_options[$i]} ${normal}"
+      print "${blue}${arrow}${normal} ${green}${_list_options[$i]}${normal} ${dim}--use arrow ( ↑↓ )${normal}"
     else
       print "  ${_list_options[$i]}"
     fi

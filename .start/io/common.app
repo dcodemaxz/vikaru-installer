@@ -3,8 +3,8 @@
 # store the current set options
 OLD_SET=$-
 
-#arrow="$(echo -e '\xe2\x9d\xaf')"
-arrow="$(echo -e '≽')"
+arrow="$(echo -e '\xe2\x9d\xaf')"
+#arrow="$(echo -e '≽')"
 checked="$(echo -e '\xe2\x97\x89')"
 unchecked="$(echo -e '\xe2\x97\xaf')"
 

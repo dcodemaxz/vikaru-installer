@@ -62,7 +62,7 @@ cd vikaru 2>/dev/null || cd vikaru-installer 2>/dev/null
 ### 2. Run the installer
 
 ```bash
-./start
+bash start
 ```
 
 ### 3. Generate SSH key ( verification )

@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 
 # value score
 : 70:75 = mendekati

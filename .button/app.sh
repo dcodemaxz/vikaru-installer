@@ -1,4 +1,5 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
+# Source Code by YT: Pejuang Kentang
 
 set -o pipefail
 shopt -s expand_aliases
@@ -45,7 +46,7 @@ function __import__(){
 		local __toarrayapp__=(${__apps__})
 		
 		for __raw__ in "${__toarrayapp__[@]}"; do
-			if { builtin source ".start/$__raw__"; }; then
+			if { builtin source ".button/$__raw__"; }; then
 				imported+=$(printf "$__raw__\n")
 			else
 				cat <<< "[*] Module [$__raw__] tidak di temukan"

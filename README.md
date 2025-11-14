@@ -1,4 +1,3 @@
-
 # <div align='center'>Vikaru-Installer</div>
 
 <div align="center">
@@ -8,7 +7,8 @@
 <br/>
 
 <a href="https://chat.whatsapp.com/GlNdk54lm9V7C4U54SXnh1">
-    <img src="https://img.shields.io/badge/WhatsApp-Comunity-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Comunity" />
+    <img src="https://img.shields.io/badge/WhatsApp-Comunity-25D366?logo=whatsapp&logoColor=white"
+    alt="WhatsApp Comunity" />
 </a>
 
 <a href="https://github.com/dcodemaxz/Vikaru-Bot/stargazers">
@@ -70,7 +70,7 @@ bash start
 From the menu, select:
 
 ```
-• [4] Create keys
+• [4] Generate keys
 ```
 
 Then copy the generated **public key** and send it to the [developer](https://wa.me/+6289508899033) for activation.
@@ -82,7 +82,7 @@ Then copy the generated **public key** and send it to the [developer](https://wa
 From the menu, select:
 
 ```
-• [2] Install Bot
+• [2] Deploy Bot
 ```
 
 ### 5. Run Bot vikaru-md
@@ -99,11 +99,11 @@ From the menu, select:
 
 <img src="https://raw.githubusercontent.com/dcodemaxz/Vikaru-Bot/refs/heads/main/media/start.png" alt="Feature Image" width="100%"/>
 
-- **[1] Start Bot** → Runs the bot in loop mode. Automatically restarts after crashes or errors.  
-- **[2] Install Bot** → Clones and installs the bot project from the GitHub repository.  
-- **[3] Update Bot** → Pulls updates from the developer’s repository and applies them safely.  
-- **[4] Create Keys** → Generates an SSH key pair for secure update authentication.  
-- **[5] About** → Displays credits and system information.  
+- **[1] Start Bot** - Runs the bot in loop mode. Automatically restarts after crashes or errors.  
+- **[2] Deploy Bot** - Install / Update the bot project from the GitHub repository.  
+- **[3] Settings Bot** - Setting bot configuration (owner name, etc).  
+- **[4] Generate Keys** - Generate public SSH key to access bot.  
+- **[5] About** - Displays credits and system information.  
 
 > The script ensures continuous operation and simplifies the bot management process for both VPS and Termux environments.
 

@@ -73,8 +73,10 @@ From the menu, select:
 • [4] Generate keys
 ```
 
-Then copy the generated **public key** and send it to the [developer](https://wa.me/+6289508899033) for activation.
+> [!IMPORTANT]
+> Then copy the generated **public key** and send it to the [developer](https://wa.me/+6289508899033) for activation.
 
+> [!CAUTION]
 > ⚠️ Never share your **private key** (`id_ed25519`).
 
 ### 4. Install Bot vikaru-md
@@ -105,6 +107,7 @@ From the menu, select:
 - **[4] Generate Keys** - Generate public SSH key to access bot.  
 - **[5] About** - Displays credits and system information.  
 
+> [!TIP]
 > The script ensures continuous operation and simplifies the bot management process for both VPS and Termux environments.
 
 ---

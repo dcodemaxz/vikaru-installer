@@ -24,8 +24,8 @@
 
 ## 🧭 About Vikaru-Installer
 
-**Vikaru-Installer** is a simple, automated installer designed to help users easily manage, update, and run Node.js-based bots.  
-It includes built-in dependency management, restart handling, and SSH key generation for secure updates and maintenance.
+> [!IMPORTANT]
+> `Vikaru-Installer` is a simple, automated installer designed to help users easily manage, update, and run Node.js-based bots. It includes built-in dependency management, restart handling, and SSH key generation for secure updates and maintenance.
 
 ---
 

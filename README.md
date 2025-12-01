@@ -31,10 +31,10 @@
 
 ## ⚙️ Installation
 
-### 1. Update your terminal environment (Ubuntu / Termux)
+### 1. Update your terminal environment (Termux / Ubuntu)
 
 ```bash
-apt update && apt upgrade -y
+apt update -y && apt upgrade -y
 ```
 
 ### 2. Install required packages
@@ -114,7 +114,8 @@ From the menu, select:
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
+> [!IMPORTANT]
+> Contributions, issues, and feature requests are welcome!  
 Feel free to open a pull request or submit an issue to improve the project.
 
 ---
